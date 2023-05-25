@@ -1,0 +1,52 @@
+main{
+  background: url("../Imagens/fundo.jpg");
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+} 
+
+  
+
+ 
+
+/* Cabeçalho menu inicio */
+.cabecalho_menu{
+    display: flex;
+    background-color: #cacaca79;
+    box-shadow: 0 1px 10px  rgb(0, 0, 0) inset;
+    width: 100vw;
+}
+
+ul{
+    display: flex;
+    height: 100px;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+li{
+    margin: 10px;
+    font-size: 2rem;
+    
+    
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Ysabeau', sans-serif;
+    
+}
+a:hover{
+    color: rgb(1, 1, 19);
+    font-weight: bold;
+    
+}
+
+
+/* Cabeçalho menu Final */
